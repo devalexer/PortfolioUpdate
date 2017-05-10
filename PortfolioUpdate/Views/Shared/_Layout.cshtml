@@ -38,6 +38,7 @@
                         <li><a asp-area="" asp-controller="Home" asp-action="Projects">Projects</a></li>
                         <li><a asp-area="" asp-controller="Home" asp-action="Blog">Blog</a></li>
                         <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                        <li><a asp-area="" asp-controller="References" asp-action="Index">References</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3 col-sm-push-3">
@@ -54,11 +55,13 @@
     <div class="container body-content">
         @RenderBody()
         <hr />
-        <footer>
-            <p>&copy; 2017 - Allie McKay</p>
-            <span>Site created with ASP.Net Core</span>
-        </footer>
+        @*footer was here*@
     </div>
+
+<footer class="footer">
+    <p>&copy; 2017 - Allie McKay</p>
+    <span>Site created with ASP.Net Core</span>
+</footer>
 
     <environment names="Development">
         <script src="~/lib/jquery/dist/jquery.js"></script>

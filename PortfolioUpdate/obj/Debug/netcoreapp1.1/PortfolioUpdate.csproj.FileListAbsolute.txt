@@ -1,0 +1,9 @@
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\bin\Debug\netcoreapp1.1\PortfolioUpdate.deps.json
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\bin\Debug\netcoreapp1.1\PortfolioUpdate.runtimeconfig.json
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\bin\Debug\netcoreapp1.1\PortfolioUpdate.runtimeconfig.dev.json
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\bin\Debug\netcoreapp1.1\PortfolioUpdate.dll
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\bin\Debug\netcoreapp1.1\PortfolioUpdate.pdb
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\obj\Debug\netcoreapp1.1\PortfolioUpdate.csprojResolveAssemblyReference.cache
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\obj\Debug\netcoreapp1.1\PortfolioUpdate.AssemblyInfo.cs
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\obj\Debug\netcoreapp1.1\PortfolioUpdate.dll
+c:\users\allie\documents\visual studio 2017\Projects\PortfolioUpdate\PortfolioUpdate\obj\Debug\netcoreapp1.1\PortfolioUpdate.pdb

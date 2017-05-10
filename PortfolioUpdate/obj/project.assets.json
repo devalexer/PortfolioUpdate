@@ -10761,10 +10761,10 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\users\\allie\\documents\\visual studio 2017\\Projects\\PortfolioUpdate\\PortfolioUpdate\\PortfolioUpdate.csproj",
+      "projectUniqueName": "C:\\Users\\Allie\\Documents\\Visual Studio 2017\\Projects\\PortfolioUpdate\\PortfolioUpdate\\PortfolioUpdate.csproj",
       "projectName": "PortfolioUpdate",
-      "projectPath": "c:\\users\\allie\\documents\\visual studio 2017\\Projects\\PortfolioUpdate\\PortfolioUpdate\\PortfolioUpdate.csproj",
-      "outputPath": "c:\\users\\allie\\documents\\visual studio 2017\\Projects\\PortfolioUpdate\\PortfolioUpdate\\obj\\",
+      "projectPath": "C:\\Users\\Allie\\Documents\\Visual Studio 2017\\Projects\\PortfolioUpdate\\PortfolioUpdate\\PortfolioUpdate.csproj",
+      "outputPath": "C:\\Users\\Allie\\Documents\\Visual Studio 2017\\Projects\\PortfolioUpdate\\PortfolioUpdate\\obj\\",
       "projectStyle": "PackageReference",
       "originalTargetFrameworks": [
         "netcoreapp1.1"

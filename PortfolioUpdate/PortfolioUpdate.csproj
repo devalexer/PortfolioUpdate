@@ -11,6 +11,7 @@
   <ItemGroup>
     <Content Include="wwwroot\images\Marbles.png" />
     <Content Include="wwwroot\images\PAHStack.png" />
+    <Content Include="wwwroot\images\profpic.png" />
     <Content Include="wwwroot\images\Reddit.png" />
   </ItemGroup>
   <ItemGroup>

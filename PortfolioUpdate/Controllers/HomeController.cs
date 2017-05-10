@@ -13,7 +13,7 @@ namespace PortfolioUpdate.Controllers
             return View();
         }
 
-        public IActionResult About()
+        public IActionResult Profile()
         {
             ViewData["Message"] = "Your application description page.";
 
@@ -22,8 +22,6 @@ namespace PortfolioUpdate.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 

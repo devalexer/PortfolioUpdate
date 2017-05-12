@@ -3,6 +3,7 @@
 <html>
 <head>
     <script src="https://use.fontawesome.com/4604b211e3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Hi! I'm Allie</title>
@@ -29,16 +30,17 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Hi! I'm Allie</a>
+                <a asp-area="" asp-controller="Home" asp-action="Index" class="navbar-brand">Allie McKay</a>
             </div>
             <div class="navbar-collapse collapse">
-                <div class="col-sm-5">
+                <div class="col-sm-6">
                     <ul class="nav navbar-nav">
                         <li><a asp-area="" asp-controller="Home" asp-action="Profile">Profile</a></li>
                         <li><a asp-area="" asp-controller="Projects" asp-action="Index">Projects</a></li>
-                        <li><a href="https://medium.com/alliemckay">Blog</a></li>
+                        <li><a href="https://medium.com/@@alliemckay">Blog</a></li>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Resume">Resume</a></li>
                         <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
-                        <li><a asp-area="" asp-controller="References" asp-action="Index">References</a></li>
+                        @*<li><a asp-area="" asp-controller="References" asp-action="Index">References</a></li>*@
                     </ul>
                 </div>
                 <div class="col-sm-3 col-sm-push-3">
@@ -46,7 +48,7 @@
                         <li class="social"><a href="https://github.com/devalexer"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                         <li class="social"><a href="https://www.linkedin.com/in/alliemckay/"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
                         <li class="social"><a href="https://twitter.com/dev_mckay"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li class="social"><a href="https://medium.com/alliemckay"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
+                        <li class="social"><a href="https://medium.com/@@alliemckay"><i class="fa fa-medium" aria-hidden="true"></i></a></li>
                     </ul>
                 </div>
             </div>

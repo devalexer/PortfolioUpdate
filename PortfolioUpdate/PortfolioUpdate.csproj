@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="wwwroot\images\betweentherocks.jpg" />
     <Content Include="wwwroot\images\Marbles.png" />
     <Content Include="wwwroot\images\PAHStack.png" />
     <Content Include="wwwroot\images\profpic.png" />

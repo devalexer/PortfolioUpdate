@@ -1,7 +1,9 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 80px;
     padding-bottom: 20px;
     margin-bottom: 60px;
+    font-size: 24px;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /*Positions footer at bottom of page*/
@@ -11,6 +13,7 @@
     width: 100%;
     height: 60px;
     background-color: black;
+    opacity: 0.8;
     color: dimgray;
     text-align: center;
 }
@@ -57,4 +60,45 @@ textarea {
 /*Header On Reference Page*/
 .referenceheader {
     text-align: center;
+}
+
+/*Navigation bar*/
+.navbar {
+    padding: 10px;
+    opacity: 0.8;
+}
+
+/*Brand Logo*/
+.navbar-inverse .navbar-brand {
+    font-size: 30px;
+    color: rgb(255, 226, 2);
+}
+
+/*.container {
+    margin-left: 200px;
+    margin-right: 200px;
+}*/
+
+.homepagebackground {
+    background-image: url(/images/betweentherocks.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gear {
+    animation-name: ckw;
+    animation-duration: 15.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+}
+
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
 }

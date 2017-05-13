@@ -85,6 +85,14 @@ textarea {
     background-size: cover;
 }
 
+/*.resumebackground {
+    background-color: #f2f2f2;
+}*/
+
+p {
+    margin-top: 1.5em
+}
+
 .gear {
     animation-name: ckw;
     animation-duration: 15.5s;

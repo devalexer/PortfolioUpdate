@@ -10,10 +10,15 @@
 
   <ItemGroup>
     <Content Include="wwwroot\images\betweentherocks.jpg" />
+    <Content Include="wwwroot\images\EventSite.png" />
     <Content Include="wwwroot\images\Marbles.png" />
+    <Content Include="wwwroot\images\moonrise.jpeg" />
+    <Content Include="wwwroot\images\moonrisecliffs.jpg" />
     <Content Include="wwwroot\images\PAHStack.png" />
+    <Content Include="wwwroot\images\Painted_Cliffs.jpg" />
     <Content Include="wwwroot\images\profpic.png" />
     <Content Include="wwwroot\images\Reddit.png" />
+    <Content Include="wwwroot\images\yosemite.jpg" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />

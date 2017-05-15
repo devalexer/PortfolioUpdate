@@ -20,7 +20,7 @@
     </environment>
     @Html.Raw(JavaScriptSnippet.FullScript)
 </head>
-<body>
+<body class="@ViewData["BodyClass"]">
     <nav class="navbar navbar-inverse navbar-fixed-top">
         <div class="container">
             <div class="navbar-header">
@@ -54,14 +54,14 @@
             </div>
         </div>
     </nav>
-    <div class="container body-content">
+    <div class="@(ViewData["ContainerClass"] == null ? "container" : ViewData["ContainerClass"]) body-content">
         @RenderBody()
         <hr />
         @*footer was here*@
     </div>
 
 <footer class="footer">
-    <p>&copy; 2017 - Allie McKay</p>
+    <p3>&copy; 2017 - Allie McKay</p3><br />
     <span>Site created with ASP.Net Core</span>
 </footer>
 

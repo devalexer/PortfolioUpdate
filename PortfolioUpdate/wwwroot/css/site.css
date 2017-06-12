@@ -6,7 +6,7 @@ body {
     min-height: 100%;
     padding-top: 80px;
     margin: 0;
-    font-size: 22px;
+    font-size: 16px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -21,6 +21,7 @@ body {
     color: dimgray;
     text-align: center;
 }
+
 
 /*Bio info blurb at top of home page*/
 .bioinfo{
@@ -92,6 +93,18 @@ p {
     margin-top: 1em;
 }
 
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
 /*Rotating shapes homepage
 
 .gear {
@@ -136,8 +149,7 @@ body.profile .container-fluid {
     /*shape-margin: 20px;*/
     clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
     padding-top: 85px;
-    padding-left: 40px;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .profileshaped {
@@ -145,15 +157,21 @@ body.profile .container-fluid {
     height: 100vh;
     width: 40vw;
     float: right;
-    background: black url(/images/Painted_Cliffs.jpg) center top no-repeat;
+    background:black url(/images/Painted_Cliffs.jpg) center top no-repeat;
     background-size: cover;
     shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
     shape-margin: 20px;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
 }
 
-/*Hexagons on homepage*/
+/*Resume page*/
 
+.resumebackground {
+    padding-bottom: 70px;
+}
+
+
+/*Hexagons on homepage*/
 .hexes {
     position: relative;
     min-height: 80vh;

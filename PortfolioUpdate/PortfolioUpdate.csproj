@@ -6,7 +6,13 @@
 
   <PropertyGroup>
     <PackageTargetFallback>$(PackageTargetFallback);portable-net45+win8+wp8+wpa81;</PackageTargetFallback>
+    <DockerComposeProjectPath>..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Properties\PublishProfiles\alliemckay - FTP.pubxml" />
+    <None Remove="Properties\PublishProfiles\alliemckay - Web Deploy.pubxml" />
+  </ItemGroup>
 
   <ItemGroup>
     <Content Include="wwwroot\images\betweentherocks.jpg" />
@@ -40,6 +46,9 @@
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 
 </Project>

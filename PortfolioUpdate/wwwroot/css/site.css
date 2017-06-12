@@ -6,7 +6,7 @@ body {
     min-height: 100%;
     padding-top: 80px;
     margin: 0;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Josefin Sans', sans-serif;
 }
 
@@ -124,6 +124,7 @@ body.profile .container-fluid {
 
 .profilecontent {
     padding: 80px;
+    text-align: justify;
 }
 
 .profiletitle {
@@ -135,6 +136,7 @@ body.profile .container-fluid {
     /*shape-margin: 20px;*/
     clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
     padding-top: 85px;
+    padding-left: 40px;
     font-size: 50px;
 }
 
@@ -165,8 +167,8 @@ body.profile .container-fluid {
 
 .hexes .profile {
     position: absolute;
-    top: 60%;
-    left: 30%;
+    top: 65%;
+    left: 40%;
 }
 
 .hexes .resume {

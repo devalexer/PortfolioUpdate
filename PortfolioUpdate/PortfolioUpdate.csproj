@@ -19,6 +19,8 @@
     <Content Include="wwwroot\images\calculator.png" />
     <Content Include="wwwroot\images\calculator2.png" />
     <Content Include="wwwroot\images\casualpic.jpg" />
+    <Content Include="wwwroot\images\DSC07864b-sm.jpg" />
+    <Content Include="wwwroot\images\EvaluChart.gif" />
     <Content Include="wwwroot\images\EventSite.png" />
     <Content Include="wwwroot\images\Marbles.png" />
     <Content Include="wwwroot\images\moonrise.jpeg" />
@@ -26,6 +28,7 @@
     <Content Include="wwwroot\images\PAHStack.png" />
     <Content Include="wwwroot\images\Painted_Cliffs.jpg" />
     <Content Include="wwwroot\images\profpic.png" />
+    <Content Include="wwwroot\images\purplepic.jpg" />
     <Content Include="wwwroot\images\Reddit.png" />
     <Content Include="wwwroot\images\TIYSports1.png" />
     <Content Include="wwwroot\images\Weatherman.gif" />

@@ -24,7 +24,7 @@ body {
 
 
 /*Bio info blurb at top of home page*/
-.bioinfo{
+.bioinfo {
     text-align: center;
     padding: 50px;
 }
@@ -105,35 +105,15 @@ h3 {
     font-size: 22px;
 }
 
-/*Rotating shapes homepage
-
-.gear {
-    animation-name: ckw;
-    animation-duration: 15.5s;
-    animation-iteration-count: infinite;
-    transform-origin: 50% 50%;
-    display: inline-block;
-}
-
-@keyframes ckw {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}*/
-
 /*Profile Page*/
 
 body.profile {
     padding-top: 0;
 }
 
-body.profile .container-fluid {
-    padding: 0;
-}
+    body.profile .container-fluid {
+        padding: 0;
+    }
 
 .profilecontent {
     padding: 80px;
@@ -157,7 +137,7 @@ body.profile .container-fluid {
     height: 100vh;
     width: 40vw;
     float: right;
-    background:black url(/images/Painted_Cliffs.jpg) center top no-repeat;
+    background: black url(/images/Painted_Cliffs.jpg) center top no-repeat;
     background-size: cover;
     shape-outside: polygon(0 0, 100% 0, 100% 100%, 30% 100%);
     shape-margin: 20px;
@@ -170,30 +150,35 @@ body.profile .container-fluid {
     padding-bottom: 70px;
 }
 
-
 /*Hexagons on homepage*/
 .hexes {
     position: relative;
     min-height: 80vh;
 }
 
-.hexes .projects {
-    position: absolute;
-    top: 10%;
-    left: 20%;
-}
+    .hexes .projects {
+        width: 350px;
+        height: 350px;
+        position: absolute;
+        top: 10%;
+        left: 20%;
+    }
 
-.hexes .profile {
-    position: absolute;
-    top: 65%;
-    left: 40%;
-}
+    .hexes .profile {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        top: 65%;
+        left: 40%;
+    }
 
-.hexes .resume {
-    position: absolute;
-    top: 35%;
-    left: 55%;
-}
+    .hexes .resume {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        top: 35%;
+        left: 55%;
+    }
 
 #pic {
     border: solid thin;
@@ -208,3 +193,67 @@ body.profile .container-fluid {
 .body-content .Projects {
     background-color: lightgray;
 }
+
+@media only screen and (max-width: 500px) {
+    
+    .profilecontent {
+        text-align: justify;
+        padding: 1.5em;
+    }
+
+    .profiletitle {
+        width: 100vw;
+        height: auto;
+        shape-outside: none;
+        clip-path: none;
+        font-size: 40px;
+        padding: .5em .5em .5em 0;
+    }
+
+    .profileshaped {
+        position: relative;
+        bottom: 0;
+        width: 100vw;
+        max-height: 250px;
+        background: black url(/images/Painted_Cliffs.jpg) center top no-repeat;
+        background-size: cover;
+        shape-outside: none;
+        clip-path: none;
+    }
+
+
+    /*Hexagons on homepage*/
+
+    .hexes .projects {
+        visibility: hidden;
+    }
+
+    .hexes .profile {
+        visibility: hidden;
+    }
+
+    .hexes .resume {
+        visibility: hidden;
+    }
+}
+
+
+/*Rotating shapes homepage
+
+.gear {
+    animation-name: ckw;
+    animation-duration: 15.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+    display: inline-block;
+}
+
+@keyframes ckw {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}*/

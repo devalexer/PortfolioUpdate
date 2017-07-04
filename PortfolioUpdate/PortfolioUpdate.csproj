@@ -19,6 +19,7 @@
     <Content Include="wwwroot\images\calculator.png" />
     <Content Include="wwwroot\images\calculator2.png" />
     <Content Include="wwwroot\images\casualpic.jpg" />
+    <Content Include="wwwroot\images\smilepic.jpg" />
     <Content Include="wwwroot\images\DSC07864b-sm.jpg" />
     <Content Include="wwwroot\images\EvaluChart.gif" />
     <Content Include="wwwroot\images\EventSite.png" />

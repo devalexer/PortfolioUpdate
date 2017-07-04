@@ -195,7 +195,7 @@ body.profile {
 }
 
 @media only screen and (max-width: 500px) {
-    
+
     .profilecontent {
         text-align: justify;
         padding: 1.5em;

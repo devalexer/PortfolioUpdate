@@ -123,7 +123,7 @@ body.profile {
 .profiletitle {
     margin-left: 10vw;
     float: left;
-    height: 100vh;
+    height: 125vh;
     width: 20vw;
     shape-outside: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
     /*shape-margin: 20px;*/

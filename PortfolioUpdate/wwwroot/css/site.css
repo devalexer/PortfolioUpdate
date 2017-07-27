@@ -20,6 +20,8 @@ body {
     opacity: 0.8;
     color: dimgray;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
@@ -149,6 +151,11 @@ body.profile {
 .resumebackground {
     padding-bottom: 70px;
 }
+
+#downloadResume{
+    padding-top: 20px;
+}
+
 
 /*Hexagons on homepage*/
 .hexes {
